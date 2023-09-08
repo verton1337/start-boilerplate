@@ -3,7 +3,6 @@ node_modules
 build
 dist
 *.zip
-package-lock.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows
