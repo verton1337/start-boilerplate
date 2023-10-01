@@ -1,0 +1,55 @@
+.main__slider{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90vh;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider h2{
+    display: block;
+    margin-top: -45vh;
+    margin-left: 15vw;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+
+
+.main__brands__items{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    width: 90vw;
+    margin: auto;
+}
+
+.main__brands__items img{
+    width: 80%;
+    height: 80%;
+    border-right: 1px solid gray;
+}
+.main__brands__items img:last-child{
+    border-right: none;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 80vw;
+    margin: auto;
+}
+
+.new_items{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 80vw;
+    margin: auto;
+}
+
+

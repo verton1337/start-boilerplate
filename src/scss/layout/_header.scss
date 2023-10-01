@@ -1,0 +1,10 @@
+header{
+    display: grid;
+    grid-template-columns: 10% 10% auto 10% 10%;
+    grid-template-rows: 10vh;
+}
+
+.header__item *{
+    width: auto;
+    display: block;
+}
