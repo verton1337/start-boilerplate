@@ -1,0 +1,25 @@
+.footer{
+    border-top-style: solid;
+    border-top-color: red;
+    border-top-width: 2px;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 5vh;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+}
+.categories{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.map__icon{
+    width: 1rem;
+    display: inline-block;
+
+}
+.adress{
+    display: inline-block;
+}
+
