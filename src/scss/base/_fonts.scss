@@ -1,18 +1,14 @@
 @font-face {
-    font-family: 'Inter';
-    src: url('../assets/fonts/Inter/Inter-Regular.woff2') format('woff2'),
-        url('../assets/fonts/Inter/Inter-Regular.woff') format('woff'),
-        url('../assets/fonts/Inter/Inter-Regular.svg#Inter-Regular') format('svg');
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat/Montserrat-Black.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url('../assets/fonts/Inter/Inter-Bold.woff2') format('woff2'),
-        url('../assets/fonts/Inter/Inter-Bold.woff') format('woff'),
-        url('../assets/fonts/Inter/Inter-Bold.svg#Inter-Bold') format('svg');
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('woff2'),;
     font-weight: bold;
     font-style: normal;
     font-display: swap;

@@ -1,29 +1,59 @@
 header{
     display: grid;
     grid-template-columns: 10% 20% auto 10% 10%;
-    grid-template-rows: 10vh;
-    width: 80vw;
+    grid-template-rows: 102px;
+    width: 1530px;
     margin: auto;
     margin-top: 1rem;
 }
 .header__item{
     display: block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .header__item *{
     height: auto;
     display: block;
 }
 .search__input{
-    width: 90%;
+    width: 100%;
     font-size: 1.2rem;
-    height: 70%;
+    font-weight: lighter;
+    height: 44px;
+    text-indent: 44px;
+    margin-top: 0px;
+}
+.search_icon{
+    width: 22px;
+    height: 22px;
+    position: relative;
+    margin-top: -31px;
+    margin-left: 16px;
 }
 .header__icon{
     width: auto;
-    height: 4vh;
+    height: 30px;
     margin: auto;
 }
 .icon__description{
     margin: auto;
+    text-align: center;
+}
+.logo{
+    height: 30px;
+    width: auto;
+    margin: auto;
+
+}
+.cart__counter{
+    position: relative;
+    margin-top: -14px;
+    margin-left: 80px;
+    background-color: red;
+    width: 17px;
+    height: 17px;
+    font-size: 14px;
+    color: white;
+    border-radius: 50%;
     text-align: center;
 }

@@ -1,3 +1,5 @@
+
+
 .main__slider, .main__article{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -6,9 +8,7 @@
 .slider{
     width: 100%;
     height: 100%;
-    color: white;
-    font-size: 3rem;
-    font-family: Montserrat;
+
 }
 .slider img{
     width: 100%;
@@ -16,6 +16,9 @@
 }
 
 .slider h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 50;
     display: block;
     margin-top: -45vh;
     margin-left: 15vw;
@@ -41,6 +44,7 @@
     width: 80%;
     height: 80%;
     border-right: 1px solid gray;
+    margin: auto;
 }
 .main__brands__items img:last-child{
     border-right: none;
@@ -49,9 +53,14 @@
 .article__name{
     text-align: center;
     text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 60px;
 }
 .article__subname{
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-decoration: underline;
 }
 
 .collection{
@@ -66,6 +75,8 @@
 .collection__item img{
     height: 40vh;
     width: calc(40vh/16*12);
+    margin: auto;
+    display: block;
     
 }
 
@@ -74,6 +85,20 @@
     grid-template-columns: repeat(4, auto);
     width: 80vw;
     margin: auto;
+}
+.new_items__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.new_items__item img{
+    width: 80%;
+    margin: auto;
+}
+.new_items__item h3{
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .button__container{
@@ -173,3 +198,41 @@
 }
 
 
+.brand__link{
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+.slider__content{
+    position: relative;
+    width: 391px;
+    color: white;
+    margin-top: -833px;
+    margin-right: 0px;
+}
+.slider__content__description{
+    font-size: 36px;
+    font-weight: 100;
+}
+.slider__content_h{
+    display: block;
+    font-size: 16px;
+    width: 181px;
+    height: 64px;
+    border-style: solid;
+    border-radius: 72px;
+    border-color: white;
+    border-width: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 493px;
+    font-weight: 100;
+}
+.left{
+    margin-left: 50%;
+    text-align: end;
+}
+.right{
+    margin-left: 111px;
+}
